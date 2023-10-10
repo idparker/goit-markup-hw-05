@@ -670,12 +670,12 @@ a {
   margin-bottom: 16px;
 }
 
-.modal-info {
+/* .modal-info {
   display: flex;
   gap: 8px;
   flex-direction: column;
   margin-bottom: 8px;
-}
+} */
 
 .modal-label {
   display: flex;
@@ -740,6 +740,11 @@ a {
 
 .input-wrap {
   position: relative;
+
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .modal-input-icon {
