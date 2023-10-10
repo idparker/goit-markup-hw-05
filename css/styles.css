@@ -670,13 +670,6 @@ a {
   margin-bottom: 16px;
 }
 
-/* .modal-info {
-  display: flex;
-  gap: 8px;
-  flex-direction: column;
-  margin-bottom: 8px;
-} */
-
 .modal-label {
   display: flex;
   flex-direction: column;
@@ -812,7 +805,6 @@ a {
   height: 56px;
   margin-left: 95px;
   margin-right: 96px;
-  margin-top: 16px;
   padding: 16px 32px;
 
   border-radius: 4px;
