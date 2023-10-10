@@ -715,8 +715,9 @@ a {
   border-color: #4d5ae5;
 }
 
-/* .modal-field {
-} */
+.modal-field {
+  margin-bottom: 16px;
+}
 
 .modal-input {
   width: 100%;
