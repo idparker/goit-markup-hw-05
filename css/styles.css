@@ -784,6 +784,7 @@ a {
 }
 
 .check-text-box {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -795,7 +796,6 @@ a {
 
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   fill: transparent;
 }
 
@@ -803,10 +803,12 @@ a {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
+  display: inline-flex;
 }
 
 .modal-send-button {
-  min-width: 169px;
+  display: block;
+  width: 169px;
   height: 56px;
   margin-left: 92px;
   margin-top: 16px;
