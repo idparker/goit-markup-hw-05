@@ -806,9 +806,6 @@ a {
 }
 
 .modal-send-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-width: 169px;
   height: 56px;
   margin-left: 92px;
