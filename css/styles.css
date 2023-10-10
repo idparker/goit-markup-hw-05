@@ -554,14 +554,13 @@ a {
   font-size: 12px;
   line-height: 2px;
   letter-spacing: 0.02px;
-  padding-left: 16px;
 }
 .footer-input:focus {
   border-color: #4d5ae5;
 }
 
 .footer-form-button {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 
   display: inline-flex;
@@ -577,13 +576,14 @@ a {
   color: var(--WHITE, #fff);
   text-align: center;
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .footer-form-button:hover {
@@ -593,6 +593,7 @@ a {
 .footer-icon {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* ============================== Modal ================================== */
