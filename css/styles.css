@@ -688,6 +688,8 @@ a {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
   margin-bottom: 4px;
+
+  display: block;
 }
 
 .modal-textarea {
@@ -739,18 +741,21 @@ a {
 }
 
 .input-wrap {
-  position: relative;
-
   display: flex;
   gap: 8px;
   flex-direction: column;
   margin-bottom: 8px;
 }
 
+.input-wrapper {
+  position: relative;
+}
+
 .modal-input-icon {
   position: absolute;
   top: 50%;
   left: 16px;
+  transform: translateY(-50%);
 }
 
 .checkbox {
