@@ -524,11 +524,10 @@ a {
   margin-bottom: 16px;
 }
 
-.footer-form {
+.footer-label {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
 }
 
 .footer-input {
@@ -591,6 +590,7 @@ a {
 /* ============================== Modal ================================== */
 
 .backdrop {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -599,6 +599,10 @@ a {
   background-color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  display: block;
 }
 
 .modal {
