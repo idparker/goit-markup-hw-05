@@ -608,23 +608,25 @@
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              placeholder="Text-input"
+              placeholder="Text input"
               name="user-comment"
               id="user-comment"
             ></textarea>
           </div>
 
-          <div class="modal-field">
+          <div class="checkbox-field">
             <input
               type="checkbox"
-              id="checkbox"
+              id="user-privacy"
+              name="user-privacy"
               class="checkbox-input visually-hidden"
+              value="true"
               required
             />
-            <label for="checkbox" class="checkbox">
+            <label for="user-privacy" class="checkbox">
               <span class="check-text-box">
-                <svg class="check-text-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-checkbox-click"></use>
+                <svg class="check-text-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg> </span
               >I accept the terms and conditions of the
               <a href="#"> Privacy Policy</a>
