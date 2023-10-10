@@ -784,11 +784,6 @@ a {
 }
 
 .check-text-box {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -797,6 +792,11 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .checkbox-input:checked + .checkbox > .check-text-box {
@@ -806,6 +806,9 @@ a {
 }
 
 .modal-send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 169px;
   height: 56px;
   margin-left: 92px;
