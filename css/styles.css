@@ -667,13 +667,14 @@ a {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .modal-info {
   display: flex;
   gap: 8px;
   flex-direction: column;
-  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -684,8 +685,9 @@ a {
   color: var(--LIGHT-SLATE, #8e8f99);
   /* Small Text */
   font-size: 12px;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .modal-textarea {
@@ -693,7 +695,6 @@ a {
   height: 120px;
 
   resize: none;
-  margin-top: 4px;
   padding-top: 8px;
   padding-left: 16px;
 
@@ -748,7 +749,6 @@ a {
 }
 
 .checkbox {
-  margin-top: 16px;
   color: var(--LIGHT-SLATE, #8e8f99);
   /* Small Text */
   font-size: 12px;
